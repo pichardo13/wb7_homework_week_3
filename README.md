@@ -8,9 +8,8 @@
 * [Partionable Labels](​https://leetcode.com/problems/partition-labels) *haven't started*
 
 ## Binary search 
-*have not started*
-* [Binary Search](https://leetcode.com/problems/binary-search)
-* [Peak Index In a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array)
+* [Binary Search](https://leetcode.com/problems/binary-search) 
+* [Peak Index In a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) *have not started*
 
 ## Sorting
 *have not started*
