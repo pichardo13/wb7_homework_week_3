@@ -11,4 +11,7 @@ Input: s = "rat", t = "car"
 Output: false
 """
 def isAnagram(s, t):
-    return
+    return s.split(). sort() == t.split().sort()
+
+print(isAnagram("anagram", "nagaram"))
+print(isAnagram("car", "rat"))

@@ -1,5 +1,4 @@
 # wb7_homework_week_3
-
 ## Greedy algorithms 
 * [Lemonade Change](https://leetcode.com/problems/lemonade-change) 
 * [Assign Cookies](https://leetcode.com/problems/assign-cookies) 
@@ -12,14 +11,12 @@
 * [Peak Index In a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) *have not started*
 
 ## Sorting
-*have not started*
-* [Valid Anagram](https://leetcode.com/problems/valid-anagram)
-* [Array Partition I](https://leetcode.com/problems/array-partition-i)
-* [Merge Intervals](https://leetcode.com/problems/merge-intervals)
-* [Find All Anagrams In a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)
+* [Valid Anagram](https://leetcode.com/problems/valid-anagram) 
+* [Array Partition I](https://leetcode.com/problems/array-partition-i) 
+* [Merge Intervals](https://leetcode.com/problems/merge-intervals) *have not started*
+* [Find All Anagrams In a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) *have not started*
 
 ## Simple recursion
-*have not started*
 * [Powx N](https://leetcode.com/problems/powx-n)
 
 ## Recursion and memoization (make sure you use memoization for the problems below)

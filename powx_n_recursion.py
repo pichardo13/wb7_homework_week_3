@@ -16,4 +16,13 @@ Output: 0.25000
 Explanation: 2-2 = 1/22 = 1/4 = 0.25
 """
 def myPow(x, n):
-    return
+    if n < 0:
+        return (1/x) * myPow(x, n + 1)
+    elif n >= 1:
+        return x * myPow(x, n - 1)
+    else:
+        return 1
+
+print(myPow(2.0, 10))
+print(myPow(2.1, 3))
+print(myPow(2.0, -2))

@@ -1,6 +1,8 @@
 """
 https://leetcode.com/problems/array-partition-i
-Given an integer array nums of 2n integers, group these integers into n pairs (a1, b1), (a2, b2), ..., (an, bn) such that the sum of min(ai, bi) for all i is maximized. Return the maximized sum.
+
+Given an integer array nums of 2n integers, group these integers into n pairs 
+(a1, b1), (a2, b2), ..., (an, bn) such that the sum of min(ai, bi) for all i is maximized. Return the maximized sum.
 
 Example 1:
 Input: nums = [1,4,3,2]
@@ -17,4 +19,15 @@ Output: 9
 Explanation: The optimal pairing is (2, 1), (2, 5), (6, 6). min(2, 1) + min(2, 5) + min(6, 6) = 1 + 2 + 6 = 9.
 """
 def arrayPairSum(nums):
-    return 
+    nums.sort()
+    return sum([nums[i] for i in range(0, len(nums), 2)])
+
+# def arrayPairSum(nums):
+    # nums.sort()
+    # sum_ = 0
+    # for i in range(0, len(nums), 2):
+    #     sum_ += nums[i]
+    # return sum_
+
+print(arrayPairSum([1,4,3,2]))
+print(arrayPairSum([6,2,6,5,1,2]))
