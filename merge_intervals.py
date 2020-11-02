@@ -13,4 +13,19 @@ Output: [[1,5]]
 Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 """
 def merge(intervals):
-    return
+    intervals.sort() #sort based on the first item
+    merged = [intervals[0]]
+
+    for i in range(1, len(intervals)):
+        inter = merged[-1] #the last item in iterval
+        current = intervals[i]
+
+        if inter[0] <= current[0] and current[0] <= inter[1]:
+            merged[-1] = [inter[0], max(current[1], inter[1])]
+        else:
+            merged.append(current)
+
+    return merged
+
+print(merge([[15,18],[8,10],[2,6],[1,3]]))
+print(merge([[1,4],[2, 3]]))

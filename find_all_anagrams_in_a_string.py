@@ -26,4 +26,14 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 """
 
 def findAnagrams(s, p):
-    return
+    anagrams = ''.join(sorted(p))
+
+    index = []
+    for i in range(len(s) - len(p) + 1):
+        if ''.join(sorted(s[i:i + len(p)])) == anagrams:
+            index.append(i)
+
+    return index
+
+print(findAnagrams("cbaebabacd", "abc"))
+print(findAnagrams("abab","ab"))

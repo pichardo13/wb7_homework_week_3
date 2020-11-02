@@ -13,8 +13,8 @@
 ## Sorting
 * [Valid Anagram](https://leetcode.com/problems/valid-anagram) 
 * [Array Partition I](https://leetcode.com/problems/array-partition-i) 
-* [Merge Intervals](https://leetcode.com/problems/merge-intervals) *have not started*
-* [Find All Anagrams In a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) *have not started*
+* [Merge Intervals](https://leetcode.com/problems/merge-intervals) 
+* [Find All Anagrams In a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)
 
 ## Simple recursion
 * [Powx N](https://leetcode.com/problems/powx-n)
